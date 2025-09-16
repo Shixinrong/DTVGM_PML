@@ -264,3 +264,4 @@ getEvapotranspiration <- function(temp, pres, shum, wind, srad, lrad, lai, alb, 
   # Es <- Es_eq * fval_soil
   return(list(Ec = Ec, Es_eq = Es_eq, PET = pet))
 }
+
